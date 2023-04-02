@@ -1,0 +1,38 @@
+* {
+  font-family: system-ui;
+  color: #e5e4e5;
+}
+body{
+  background-color: #444;
+}
+.head{
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.weight-input{
+  display: flex;
+  margin: 0 auto;
+  width: 75%;
+  height: 25px;
+  color:black;
+  padding-left: 10px;
+}
+.result div{
+  width: 80%;
+  margin: 0 auto;
+  padding: 5px;
+  margin-top: 10px;
+}
+.hiddin{
+  display: none;
+}
+.result div.grams{
+  background-color: #1472dc;
+}
+.result div.kilo{
+  background-color: #5aa861;
+}
+.result div.ounces{
+  background-color: #e2604f;
+}
